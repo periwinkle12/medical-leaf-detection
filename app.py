@@ -29,7 +29,7 @@ class_names = [
 ]
 
 # Set up Gemini API
-genai.configure(api_key="AIzaSyBTIhsX6j-3PlLcIgdzr9fMxlMLXuc6Me8")  
+genai.configure(api_key="")  
 
 def get_ayurvedic_benefits(leaf_name):
     """Fetch Ayurvedic benefits from Gemini AI dynamically."""
