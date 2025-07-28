@@ -45,4 +45,16 @@ A separate model for predicting medicinal properties from classification output.
 
 Training was done using Keras and TensorFlow.
 
+🐳 Run with Docker
+# Step 1: Clone the repository
+git clone https://github.com/Kiran Behera/medical-leaf-detection.git
+cd medical-leaf-detection
+
+# Step 2: Build the Docker image
+docker build -t leaf-detector .
+
+# Step 3: Run the container
+docker run -p 8501:8501 leaf-detector
+
+
 
